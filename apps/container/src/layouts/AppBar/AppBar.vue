@@ -222,6 +222,12 @@ const internalNavigationItems = [
     locked: !authStore.user?.confirmed,
   },
   {
+    title: 'Planejamento',
+    icon: 'mdi-calendar-check',
+    route: '/planning',
+    locked: !authStore.user?.confirmed,
+  },
+  {
     title: 'Dados da Matrícula',
     icon: 'mdi-book-multiple',
     route: '/stats',
