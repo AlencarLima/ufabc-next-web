@@ -36,54 +36,10 @@ interface Enrollment {
 
 export const enrollments: Enrollment[] = [
   {
-    "_id": "6005b8f1c4941ebd70f977eb",
-    "disciplina": "Bases Conceituais da Energia",
-    "code": "BIJ0207-15",
-    "quad": 2,
-    "year": 2020,
-    "conceito": "A",
-    "ca_acumulado": null,
-    "cr_acumulado": null,
-    "cp_acumulado": null,
-    "createdAt": "2021-01-18T16:36:01.755Z",
-    "updatedAt": "2024-03-23T16:40:33.604Z",
-    "creditos": 2,
-    "identifier": "fa2e128b90fe454dba7e564933a6e11c",
-    "season": "2020:2",
-    "subject": {
-      "_id": "5bf5fbdb436c414f35a8ef82",
-      "name": "bases conceituais da energia",
-      "search": "Bases Conceituais Da Energia",
-      "creditos": 2
-    }
-  },
-  {
-    "_id": "6005b8f1c4941ebd70f977ed",
-    "disciplina": "Estrutura da Matéria",
-    "code": "BIK0102-15	",
-    "quad": 2,
-    "year": 2020,
-    "conceito": "A",
-    "ca_acumulado": null,
-    "cr_acumulado": null,
-    "cp_acumulado": null,
-    "createdAt": "2021-01-18T16:36:01.766Z",
-    "updatedAt": "2024-03-23T16:40:33.619Z",
-    "creditos": 3,
-    "identifier": "1ead68359a6c74b9f3af45558bd6fff1",
-    "season": "2020:2",
-    "subject": {
-      "_id": "5bf5fbdb436c414f35a8f061",
-      "name": "estrutura da matéria",
-      "search": "Estrutura Da Materia",
-      "creditos": 3
-    }
-  },
-  {
     "_id": "6005b8f1c4941ebd70f977ef",
     "disciplina": "Evolução e Diversificação da Vida na Terra",
     "code": "BIL0304-15",
-    "quad": 2,
+    "quad": 3,
     "year": 2020,
     "conceito": "A",
     "ca_acumulado": null,
@@ -105,7 +61,7 @@ export const enrollments: Enrollment[] = [
     "_id": "6005b8f1c4941ebd70f977f1",
     "disciplina": "Bases Computacionais da Ciência",
     "code": "BIS0005-15",
-    "quad": 2,
+    "quad": 3,
     "year": 2020,
     "conceito": "A",
     "ca_acumulado": null,
@@ -125,8 +81,8 @@ export const enrollments: Enrollment[] = [
   },
   {
     "_id": "609b5358244147d60c50854d",
-    "disciplina": "biodiversidade: interações entre organismos e ambiente",
-    "code": "BIO0101-21",
+    "disciplina": "Biodiversidade: Interações Entre Organismos e Ambiente",
+    "code": "BCL0306-15",
     "quad": 1,
     "year": 2021,
     "conceito": "A",
@@ -158,7 +114,7 @@ export const enrollments: Enrollment[] = [
   },
   {
     "_id": "609b5358244147d60c50854f",
-    "disciplina": "natureza da informação",
+    "disciplina": "Natureza da Informação",
     "code": "BCM0504-15",
     "quad": 1,
     "year": 2021,
@@ -188,7 +144,7 @@ export const enrollments: Enrollment[] = [
   },
   {
     "_id": "609b5358244147d60c508551",
-    "disciplina": "geometria analítica",
+    "disciplina": "Geometria Analítica",
     "code": "BCN0404-15",
     "quad": 1,
     "year": 2021,
@@ -221,7 +177,7 @@ export const enrollments: Enrollment[] = [
   },
   {
     "_id": "60a95a535c16f60395486372",
-    "disciplina": "fenômenos mecânicos",
+    "disciplina": "Fenômenos Mecânicos",
     "code": "BCJ0204-15",
     "quad": 1,
     "year": 2021,
@@ -258,7 +214,7 @@ export const enrollments: Enrollment[] = [
   },
   {
     "_id": "60a95a535c16f60395486377",
-    "disciplina": "bases matemáticas",
+    "disciplina": "Bases Matemáticas",
     "code": "BIS0003-15",
     "quad": 1,
     "year": 2021,
@@ -291,8 +247,8 @@ export const enrollments: Enrollment[] = [
   },
   {
     "_id": "612fbd3711242d9652db82e5",
-    "disciplina": "fenômenos térmicos",
-    "code": "BCJ0204-15",
+    "disciplina": "Fenômenos Térmicos",
+    "code": "BCJ0205-15",
     "quad": 2,
     "year": 2021,
     "conceito": "A",
@@ -327,7 +283,7 @@ export const enrollments: Enrollment[] = [
   },
   {
     "_id": "612fbd3711242d9652db82e7",
-    "disciplina": "transformações químicas",
+    "disciplina": "Transformações Químicas",
     "code": "BCL0307-15",
     "quad": 2,
     "year": 2021,
@@ -363,8 +319,8 @@ export const enrollments: Enrollment[] = [
   },
   {
     "_id": "612fbd3711242d9652db82e9",
-    "disciplina": "processamento da informação",
-    "code": "BCM0505-15",
+    "disciplina": "Processamento da Informação",
+    "code": "BCM0505-22",
     "quad": 2,
     "year": 2021,
     "conceito": "A",
@@ -399,7 +355,7 @@ export const enrollments: Enrollment[] = [
   },
   {
     "_id": "612fbd3811242d9652db82eb",
-    "disciplina": "funções de uma variável",
+    "disciplina": "Funções de uma Variável",
     "code": "BCN0402-15",
     "quad": 2,
     "year": 2021,
@@ -429,7 +385,7 @@ export const enrollments: Enrollment[] = [
   },
   {
     "_id": "61c60d777d346ecbdf7800e9",
-    "disciplina": "fenômenos eletromagnéticos",
+    "disciplina": "Fenômenos Eletromagnéticos",
     "code": "BCJ0203-15",
     "quad": 3,
     "year": 2021,
@@ -465,7 +421,7 @@ export const enrollments: Enrollment[] = [
   },
   {
     "_id": "61c60d777d346ecbdf7800eb",
-    "disciplina": "comunicação e redes",
+    "disciplina": "Comunicação e Redes",
     "code": "BCM0506-15",
     "quad": 3,
     "year": 2021,
@@ -495,7 +451,7 @@ export const enrollments: Enrollment[] = [
   },
   {
     "_id": "61c60d777d346ecbdf7800ed",
-    "disciplina": "bases epistemológicas da ciência moderna",
+    "disciplina": "Bases Epistemológicas da Ciência Moderna",
     "code": "BIR0004-15",
     "quad": 3,
     "year": 2021,
@@ -525,7 +481,7 @@ export const enrollments: Enrollment[] = [
   },
   {
     "_id": "61c60d777d346ecbdf7800ef",
-    "disciplina": "programação estruturada",
+    "disciplina": "Programação Estruturada",
     "code": "MCTA028-15",
     "quad": 3,
     "year": 2021,
@@ -564,7 +520,7 @@ export const enrollments: Enrollment[] = [
   },
   {
     "_id": "61d8baf7475aff2e64d9d554",
-    "disciplina": "funções de várias variáveis",
+    "disciplina": "Funções de Várias Variáveis",
     "code": "BCN0407-15",
     "quad": 3,
     "year": 2021,
@@ -594,7 +550,7 @@ export const enrollments: Enrollment[] = [
   },
   {
     "_id": "62995731fb3b95f8fc0b0a5b",
-    "disciplina": "física quântica",
+    "disciplina": "Física Quântica",
     "code": "BCK0103-15",
     "quad": 1,
     "year": 2022,
@@ -661,7 +617,7 @@ export const enrollments: Enrollment[] = [
   },
   {
     "_id": "62995731fb3b95f8fc0b0a5f",
-    "disciplina": "introdução à probabilidade e à estatística",
+    "disciplina": "Introdução à Probabilidade e à Estatística",
     "code": "BIN0406-15",
     "quad": 1,
     "year": 2022,
@@ -694,7 +650,7 @@ export const enrollments: Enrollment[] = [
   },
   {
     "_id": "62995731fb3b95f8fc0b0a61",
-    "disciplina": "segurança de redes",
+    "disciplina": "Segurança de Redes",
     "code": "ESZI031-17",
     "quad": 1,
     "year": 2022,
@@ -728,8 +684,8 @@ export const enrollments: Enrollment[] = [
   },
   {
     "_id": "62995731fb3b95f8fc0b0a63",
-    "disciplina": "algoritmos e estruturas de dados i",
-    "code": "MCTA001-17",
+    "disciplina": "Algoritmos e Estruturas de Dados I",
+    "code": "MCCC001-23",
     "quad": 1,
     "year": 2022,
     "conceito": "A",
@@ -750,7 +706,7 @@ export const enrollments: Enrollment[] = [
   },
   {
     "_id": "63233a397a974e2b06242c39",
-    "disciplina": "interações atômicas e moleculares",
+    "disciplina": "Interações Atômicas e Moleculares",
     "code": "BCK0104-15",
     "quad": 2,
     "year": 2022,
@@ -780,7 +736,7 @@ export const enrollments: Enrollment[] = [
   },
   {
     "_id": "63233a397a974e2b06242c3b",
-    "disciplina": "introdução às equações diferenciais ordinárias",
+    "disciplina": "Introdução às Equações Diferenciais Ordinárias",
     "code": "BCN0405-15",
     "quad": 2,
     "year": 2022,
@@ -813,8 +769,8 @@ export const enrollments: Enrollment[] = [
   },
   {
     "_id": "63233a397a974e2b06242c3d",
-    "disciplina": "base experimental das ciências naturais",
-    "code": "BCS0001-15",
+    "disciplina": "Base Experimental das Ciências Naturais",
+    "code": "BCS0001-25",
     "quad": 2,
     "year": 2022,
     "conceito": "A",
@@ -843,7 +799,7 @@ export const enrollments: Enrollment[] = [
   },
   {
     "_id": "63233a397a974e2b06242c3f",
-    "disciplina": "estrutura e dinâmica social",
+    "disciplina": "Estrutura e Dinâmica Social",
     "code": "BIQ0602-15",
     "quad": 2,
     "year": 2022,
@@ -873,7 +829,7 @@ export const enrollments: Enrollment[] = [
   },
   {
     "_id": "6473fd5af02a9ad401c3651b",
-    "disciplina": "circuitos digitais",
+    "disciplina": "Circuitos Digitais",
     "code": "MCTA006-17",
     "quad": 1,
     "year": 2023,
@@ -916,7 +872,7 @@ export const enrollments: Enrollment[] = [
   {
     "_id": "6473fd5af02a9ad401c3651d",
     "disciplina": "Linguagens Formais e Automata",
-    "code": "MCTA015-13",
+    "code": "MCCC009-23",
     "quad": 1,
     "year": 2023,
     "conceito": "D",
@@ -946,7 +902,7 @@ export const enrollments: Enrollment[] = [
   },
   {
     "_id": "6473fd5af02a9ad401c36522",
-    "disciplina": "redes de computadores",
+    "disciplina": "Redes de Computadores",
     "code": "MCTA022-17",
     "quad": 1,
     "year": 2023,
@@ -983,7 +939,7 @@ export const enrollments: Enrollment[] = [
   },
   {
     "_id": "6473fd5af02a9ad401c36524",
-    "disciplina": "engenharia de software",
+    "disciplina": "Engenharia de Software",
     "code": "MCTA033-15",
     "quad": 1,
     "year": 2023,
@@ -1014,7 +970,7 @@ export const enrollments: Enrollment[] = [
   },
   {
     "_id": "6502a405216580ff36a9e745",
-    "disciplina": "fundamentos de desenho técnico",
+    "disciplina": "Fundamentos de Desenho Técnico",
     "code": "ESTO011-17",
     "quad": 2,
     "year": 2023,
@@ -1045,8 +1001,8 @@ export const enrollments: Enrollment[] = [
   },
   {
     "_id": "6502a405216580ff36a9e747",
-    "disciplina": "análise de algoritmos",
-    "code": "MCTA003-17",
+    "disciplina": "Análise de Algoritmos",
+    "code": "MCCC004-23",
     "quad": 2,
     "year": 2023,
     "conceito": "C",
@@ -1076,8 +1032,8 @@ export const enrollments: Enrollment[] = [
   },
   {
     "_id": "6502a405216580ff36a9e749",
-    "disciplina": "compiladores",
-    "code": "MCTA007-17",
+    "disciplina": "Compiladores e Interpretadores", // compiladores
+    "code": "MCCC006-23",
     "quad": 2,
     "year": 2023,
     "conceito": "B",
@@ -1115,7 +1071,7 @@ export const enrollments: Enrollment[] = [
   },
   {
     "_id": "6502a406216580ff36a9e76e",
-    "disciplina": "computadores, ética e sociedade",
+    "disciplina": "Computadores, Ética e Sociedade",
     "code": "MCTA009-13",
     "quad": 2,
     "year": 2023,
@@ -1146,7 +1102,7 @@ export const enrollments: Enrollment[] = [
   },
   {
     "_id": "6502a406216580ff36a9e770",
-    "disciplina": "programação orientada a objetos",
+    "disciplina": "Programação Orientada a Objetos",
     "code": "MCTA018-13",
     "quad": 2,
     "year": 2023,
@@ -1183,7 +1139,7 @@ export const enrollments: Enrollment[] = [
   },
   {
     "_id": "659f2c9691a8824fda6ef0e2",
-    "disciplina": "arquitetura de computadores",
+    "disciplina": "Arquitetura de Computadores",
     "code": "MCTA004-17",
     "quad": 3,
     "year": 2023,
@@ -1214,8 +1170,8 @@ export const enrollments: Enrollment[] = [
   },
   {
     "_id": "659f2c9691a8824fda6ef0e4",
-    "disciplina": "inteligência artificial",
-    "code": "MCTA014-15",
+    "disciplina": "Inteligência Artificial",
+    "code": "MCCC008-23",
     "quad": 3,
     "year": 2023,
     "conceito": "C",
@@ -1247,8 +1203,8 @@ export const enrollments: Enrollment[] = [
   },
   {
     "_id": "659f2c9691a8824fda6ef0e6",
-    "disciplina": "teoria dos grafos",
-    "code": "MCTA027-17",
+    "disciplina": "Teoria dos Grafos",
+    "code": "MCCC003-23",
     "quad": 3,
     "year": 2023,
     "conceito": "D",
@@ -1278,8 +1234,8 @@ export const enrollments: Enrollment[] = [
   },
   {
     "_id": "659f2c9691a8824fda6ef0e8",
-    "disciplina": "banco de dados",
-    "code": "MCTA037-17",
+    "disciplina": "Banco de Dados",
+    "code": "MCCC012-23",
     "quad": 3,
     "year": 2023,
     "conceito": "B",
@@ -1319,7 +1275,7 @@ export const enrollments: Enrollment[] = [
   },
   {
     "_id": "659f2c9691a8824fda6ef0ea",
-    "disciplina": "processamento de linguagem natural",
+    "disciplina": "Processamento de Linguagem Natural",
     "code": "MCZA017-13",
     "quad": 3,
     "year": 2023,
@@ -1352,7 +1308,7 @@ export const enrollments: Enrollment[] = [
   },
   {
     "_id": "65f60a182aa8cdc69adab7f2",
-    "disciplina": "lógica básica",
+    "disciplina": "Lógica Básica",
     "code": "NHI2049-13",
     "quad": 3,
     "year": 2022,
@@ -1385,8 +1341,8 @@ export const enrollments: Enrollment[] = [
   },
   {
     "_id": "65f60a232aa8cdc69adaf0de",
-    "disciplina": "algoritmos e estruturas de dados ii",
-    "code": "MCTA002-17",
+    "disciplina": "Algoritmos e Estruturas de Dados II",
+    "code": "MCCC002-23",
     "quad": 3,
     "year": 2022,
     "conceito": "B",
@@ -1422,7 +1378,7 @@ export const enrollments: Enrollment[] = [
   },
   {
     "_id": "65f60a232aa8cdc69adaf0e0",
-    "disciplina": "ciência, tecnologia e sociedade",
+    "disciplina": "Ciência, Tecnologia e Sociedade",
     "code": "BIR0603-15",
     "quad": 3,
     "year": 2022,
@@ -1453,7 +1409,7 @@ export const enrollments: Enrollment[] = [
   },
   {
     "_id": "65f60a232aa8cdc69adaf0e2",
-    "disciplina": "modelagem e controle",
+    "disciplina": "Modelagem e Controle",
     "code": "ESTA020-17",
     "quad": 3,
     "year": 2022,
@@ -1485,7 +1441,7 @@ export const enrollments: Enrollment[] = [
   },
   {
     "_id": "65f60a232aa8cdc69adaf0e4",
-    "disciplina": "princípios de administração",
+    "disciplina": "Princípios de Administração",
     "code": "ESTO012-17",
     "quad": 3,
     "year": 2022,
@@ -1516,7 +1472,7 @@ export const enrollments: Enrollment[] = [
   },
   {
     "_id": "65f60a232aa8cdc69adaf0e6",
-    "disciplina": "álgebra linear",
+    "disciplina": "Álgebra Linear",
     "code": "MCTB001-17",
     "quad": 3,
     "year": 2022,
@@ -1547,8 +1503,8 @@ export const enrollments: Enrollment[] = [
   },
   {
     "_id": "672763b25d9383109b66ad44",
-    "disciplina": "projeto de graduação em computação i",
-    "code": "MCTA029-17",
+    "disciplina": "Projeto de Graduação em Computação I",
+    "code": "MCCC017-23",
     "quad": 2,
     "year": 2024,
     "conceito": "A",
@@ -1570,7 +1526,7 @@ export const enrollments: Enrollment[] = [
   },
   {
     "_id": "672763b25d9383109b66ad46",
-    "disciplina": "programação funcional",
+    "disciplina": "Programação Funcional",
     "code": "MCCC015-23",
     "quad": 2,
     "year": 2024,
@@ -1601,7 +1557,7 @@ export const enrollments: Enrollment[] = [
   },
   {
     "_id": "672763b25d9383109b66ad48",
-    "disciplina": "tópicos computacionais em materiais",
+    "disciplina": "Tópicos Computacionais em Materiais",
     "code": "ESTM003-17",
     "quad": 2,
     "year": 2024,
@@ -1638,7 +1594,7 @@ export const enrollments: Enrollment[] = [
   },
   {
     "_id": "672763b25d9383109b66ad4a",
-    "disciplina": "vida artificial na computação",
+    "disciplina": "Vida Artificial na Computação",
     "code": "MCZA030-17",
     "quad": 2,
     "year": 2024,
@@ -1669,7 +1625,7 @@ export const enrollments: Enrollment[] = [
   },
   {
     "_id": "6770a1705dd43cb4adcec2e4",
-    "disciplina": "aprendizado de máquina",
+    "disciplina": "Aprendizado de Máquina",
     "code": "MCZA002-17",
     "quad": 3,
     "year": 2024,
@@ -1700,7 +1656,7 @@ export const enrollments: Enrollment[] = [
   },
   {
     "_id": "6770a1705dd43cb4adcec2f2",
-    "disciplina": "computação gráfica",
+    "disciplina": "Computação Gráfica",
     "code": "MCCC007-23",
     "quad": 3,
     "year": 2024,
@@ -1731,8 +1687,8 @@ export const enrollments: Enrollment[] = [
   },
   {
     "_id": "6770a1705dd43cb4adcec2f7",
-    "disciplina": "projeto de graduação em computação ii",
-    "code": "MCTA030-17",
+    "disciplina": "Projeto de Graduação em Computação II",
+    "code": "MCCC017-23",
     "quad": 3,
     "year": 2024,
     "conceito": "A",
@@ -1754,7 +1710,7 @@ export const enrollments: Enrollment[] = [
   },
   {
     "_id": "6770a1705dd43cb4adcec2fb",
-    "disciplina": "otimização linear",
+    "disciplina": "Otimização Linear",
     "code": "MCCC013-23",
     "quad": 3,
     "year": 2024,
@@ -1785,7 +1741,7 @@ export const enrollments: Enrollment[] = [
   },
   {
     "_id": "6770a1705dd43cb4adcec30e",
-    "disciplina": "sistemas distribuídos",
+    "disciplina": "Sistemas Distribuídos",
     "code": "MCTA025-13",
     "quad": 2,
     "year": 2024,
@@ -1808,7 +1764,7 @@ export const enrollments: Enrollment[] = [
   },
   {
     "_id": "6770a1705dd43cb4adcec31f",
-    "disciplina": "matemática discreta",
+    "disciplina": "Matemática Discreta",
     "code": "MCTB019-17",
     "quad": 1,
     "year": 2024,
@@ -1845,7 +1801,7 @@ export const enrollments: Enrollment[] = [
   },
   {
     "_id": "6770a1705dd43cb4adcec325",
-    "disciplina": "sistemas operacionais",
+    "disciplina": "Sistemas Operacionais",
     "code": "MCTA026-13",
     "quad": 1,
     "year": 2024,
@@ -1882,7 +1838,7 @@ export const enrollments: Enrollment[] = [
   },
   {
     "_id": "6770a1715dd43cb4adcec327",
-    "disciplina": "segurança de dados",
+    "disciplina": "Segurança de Dados",
     "code": "MCTA023-17",
     "quad": 1,
     "year": 2024,
@@ -1919,8 +1875,8 @@ export const enrollments: Enrollment[] = [
   },
   {
     "_id": "6770a1715dd43cb4adcec32a",
-    "disciplina": "projeto dirigido",
-    "code": "BCS0002-15",
+    "disciplina": "Projeto Dirigido",
+    "code": "BCS0002-25",
     "quad": 1,
     "year": 2024,
     "conceito": "A",
@@ -1949,54 +1905,8 @@ export const enrollments: Enrollment[] = [
     }
   },
   {
-    "_id": "6770a1725dd43cb4adcec3ea",
-    "disciplina": "bases computacionais da ciência",
-    "code": "BIS0005-15",
-    "quad": 3,
-    "year": 2020,
-    "conceito": "A",
-    "ca_acumulado": null,
-    "cr_acumulado": null,
-    "cp_acumulado": null,
-    "comments": [],
-    "createdAt": "2024-12-29T01:10:10.235Z",
-    "updatedAt": "2025-05-31T14:11:09.230Z",
-    "creditos": 2,
-    "identifier": "e32fa49cb77ff0b386ad6c46808ecf75",
-    "season": "2020:3",
-    "subject": {
-      "_id": "5bf5fbdb436c414f35a8ef81",
-      "name": "bases computacionais da ciência",
-      "search": "Bases Computacionais Da Ciencia",
-      "creditos": 2
-    }
-  },
-  {
-    "_id": "6770a1725dd43cb4adcec3f4",
-    "disciplina": "estrutura da matéria",
-    "code": "BIK0102-15",
-    "quad": 3,
-    "year": 2020,
-    "conceito": "A",
-    "ca_acumulado": null,
-    "cr_acumulado": null,
-    "cp_acumulado": null,
-    "comments": [],
-    "createdAt": "2024-12-29T01:10:10.332Z",
-    "updatedAt": "2025-05-31T14:11:09.286Z",
-    "creditos": 3,
-    "identifier": "15888c7ff357231c4ca9cb50bfc7b97a",
-    "season": "2020:3",
-    "subject": {
-      "_id": "5bf5fbdb436c414f35a8f061",
-      "name": "estrutura da matéria",
-      "search": "Estrutura Da Materia",
-      "creditos": 3
-    }
-  },
-  {
     "_id": "6770a1725dd43cb4adcec3f6",
-    "disciplina": "bases conceituais da energia",
+    "disciplina": "Bases Conceituais da Energia",
     "code": "BIJ0207-15",
     "quad": 3,
     "year": 2020,
@@ -2018,31 +1928,8 @@ export const enrollments: Enrollment[] = [
     }
   },
   {
-    "_id": "6770a1725dd43cb4adcec3f9",
-    "disciplina": "evolução e diversificação da vida na terra",
-    "code": "BIL0304-15",
-    "quad": 3,
-    "year": 2020,
-    "conceito": "A",
-    "ca_acumulado": null,
-    "cr_acumulado": null,
-    "cp_acumulado": null,
-    "comments": [],
-    "createdAt": "2024-12-29T01:10:10.357Z",
-    "updatedAt": "2025-05-31T14:11:09.316Z",
-    "creditos": 3,
-    "identifier": "bafe4b15616fa2b23dc0fe5f2e42f823",
-    "season": "2020:3",
-    "subject": {
-      "_id": "5bf5fbdb436c414f35a8f06f",
-      "name": "evolução e diversificação da vida na terra",
-      "search": "Evolucao E Diversificacao Da Vida Na Terra",
-      "creditos": 3
-    }
-  },
-  {
     "_id": "67a78f1b455f2b8b3499b56f",
-    "disciplina": "programação para web",
+    "disciplina": "Programação para Web",
     "code": "MCZA019-17",
     "quad": 1,
     "year": 2025,
@@ -2079,7 +1966,7 @@ export const enrollments: Enrollment[] = [
   },
   {
     "_id": "67a78f1b455f2b8b3499b575",
-    "disciplina": "visão computacional",
+    "disciplina": "Visão Computacional",
     "code": "ESZA019-17",
     "quad": 1,
     "year": 2025,
@@ -2118,7 +2005,7 @@ export const enrollments: Enrollment[] = [
   },
   {
     "_id": "683b0dfa7671e16142e32ed5",
-    "disciplina": "sistemas digitais",
+    "disciplina": "Sistemas Digitais",
     "code": "MCTA024-13",
     "quad": 2,
     "year": 2025,
@@ -2158,40 +2045,10 @@ export const enrollments: Enrollment[] = [
     }
   },
   {
-    "_id": "68ba4211defae35cdec1fc73",
-    "disciplina": "bases conceituais da energia",
-    "code": "BIJ0207-15",
-    "quad": 2,
-    "year": 2020,
-    "conceito": "A",
-    "ca_acumulado": null,
-    "cp_acumulado": null,
-    "comments": [],
-    "createdAt": "2025-09-05T01:51:13.855Z",
-    "updatedAt": "2026-02-15T13:38:30.925Z",
-    "creditos": 2,
-    "season": "2020:2",
-    "subject": {
-      "_id": "5bf5fbdb436c414f35a8ef82",
-      "name": "bases conceituais da energia",
-      "search": "Bases Conceituais Da Energia",
-      "creditos": 2
-    },
-    "teoria": {
-      "_id": "5bf5fb65d741524f090c9197",
-      "name": "Joao Vicente Akwa",
-      "alias": [
-        "Joao Vicente Akwa Ademir Pelizari",
-        "joao vicente akwa"
-      ]
-    },
-    "pratica": null
-  },
-  {
     "_id": "68ba4212defae35cdec1fc97",
-    "disciplina": "estrutura da matéria",
+    "disciplina": "Estrutura da Matéria",
     "code": "BIK0102-15",
-    "quad": 2,
+    "quad": 3,
     "year": 2020,
     "conceito": "A",
     "ca_acumulado": null,
@@ -2217,132 +2074,8 @@ export const enrollments: Enrollment[] = [
     "pratica": null
   },
   {
-    "_id": "68ba4212defae35cdec1fc99",
-    "disciplina": "bases computacionais da ciência",
-    "code": "BIS0005-15",
-    "quad": 2,
-    "year": 2020,
-    "conceito": "A",
-    "ca_acumulado": null,
-    "cp_acumulado": null,
-    "comments": [],
-    "createdAt": "2025-09-05T01:51:14.094Z",
-    "updatedAt": "2026-02-15T13:38:30.940Z",
-    "creditos": 2,
-    "season": "2020:2",
-    "subject": {
-      "_id": "5bf5fbdb436c414f35a8ef81",
-      "name": "bases computacionais da ciência",
-      "search": "Bases Computacionais Da Ciencia",
-      "creditos": 2
-    },
-    "teoria": {
-      "_id": "5bf5fb65d741524f090c9269",
-      "name": "Nunzio Marco Torrisi",
-      "alias": [
-        "nunzio marco torrisi"
-      ]
-    },
-    "pratica": null
-  },
-  {
-    "_id": "68ba4212defae35cdec1fc9b",
-    "disciplina": "evolução e diversificação da vida na terra",
-    "code": "BIL0304-15",
-    "quad": 2,
-    "year": 2020,
-    "conceito": "A",
-    "ca_acumulado": null,
-    "cp_acumulado": null,
-    "comments": [],
-    "createdAt": "2025-09-05T01:51:14.098Z",
-    "updatedAt": "2026-02-15T13:38:30.927Z",
-    "creditos": 3,
-    "season": "2020:2",
-    "subject": {
-      "_id": "5bf5fbdb436c414f35a8f06f",
-      "name": "evolução e diversificação da vida na terra",
-      "search": "Evolucao E Diversificacao Da Vida Na Terra",
-      "creditos": 3
-    },
-    "teoria": {
-      "_id": "5f20ce3d5238da0017cd8ab9",
-      "name": "Priscila Barreto De Jesus",
-      "alias": [
-        "priscila barreto de jesus"
-      ]
-    },
-    "pratica": null
-  },
-  {
-    "_id": "68ba4212defae35cdec1fcd2",
-    "disciplina": "bioquímica: estrutura, propriedades e funções de biomoléculas",
-    "code": "BCL0308-15",
-    "quad": 1,
-    "year": 2022,
-    "conceito": "A",
-    "ca_acumulado": null,
-    "cr_acumulado": 3.8923076923076922,
-    "cp_acumulado": null,
-    "comments": [],
-    "createdAt": "2025-09-05T01:51:14.417Z",
-    "updatedAt": "2026-02-15T13:38:31.079Z",
-    "creditos": 5,
-    "season": "2022:1",
-    "subject": {
-      "_id": "5bf5fbdb436c414f35a8ef9b",
-      "name": "bioquímica: estrutura, propriedade e funções de biomoléculas",
-      "search": "Bioquimica Estrutura Propriedade E Funcoes De Biomoleculas",
-      "creditos": 5
-    },
-    "teoria": {
-      "_id": "5bf5fb65d741524f090c91e2",
-      "name": "Luciano Puzer",
-      "alias": [
-        "luciano puzer"
-      ]
-    },
-    "pratica": {
-      "_id": "5bf5fb65d741524f090c9084",
-      "name": "Camilo Andrea Angelucci",
-      "alias": [
-        "camilo andrea angelucci"
-      ]
-    }
-  },
-  {
-    "_id": "68ba4212defae35cdec1fd0a",
-    "disciplina": "linguagens formais e autômata",
-    "code": "MCTA015-13",
-    "quad": 1,
-    "year": 2023,
-    "conceito": "D",
-    "ca_acumulado": null,
-    "cr_acumulado": 3.7711864406779663,
-    "cp_acumulado": null,
-    "comments": [],
-    "createdAt": "2025-09-05T01:51:14.733Z",
-    "updatedAt": "2026-02-15T13:38:31.287Z",
-    "creditos": 4,
-    "season": "2023:1",
-    "subject": {
-      "_id": "5bf5fbdc436c414f35a8f15c",
-      "name": "linguagens formais e automata",
-      "search": "Linguagens Formais E Automata",
-      "creditos": 4
-    },
-    "teoria": {
-      "_id": "5bf5fb65d741524f090c9022",
-      "name": "Alexandre Donizeti Alves",
-      "alias": [
-        "alexandre donizeti alves"
-      ]
-    },
-    "pratica": null
-  },
-  {
     "_id": "690bee8241d92779924cf675",
-    "disciplina": "hidráulica de condutos livres",
+    "disciplina": "Hidráulica de Condutos Livres",
     "code": "ESTU029-17",
     "quad": 3,
     "year": 2025,
@@ -2357,7 +2090,7 @@ export const enrollments: Enrollment[] = [
     "season": "2025:3",
     "subject": {
       "_id": "5bf5fbdb436c414f35a8f0e7",
-      "name": "hidráulica de condutos livres",
+      "name": "Hidráulica de Condutos Livres",
       "search": "Hidraulica De Condutos Livres",
       "creditos": 3
     },
@@ -2377,54 +2110,9 @@ export const enrollments: Enrollment[] = [
     }
   },
   {
-    "_id": "69768ac012abcedc91bdac48",
-    "disciplina": "sistemas distribuídos",
-    "code": "MCTA025-13",
-    "quad": 2,
-    "year": 2024,
-    "conceito": "A",
-    "ca_acumulado": null,
-    "cp_acumulado": null,
-    "comments": [],
-    "createdAt": "2026-01-25T21:27:28.385Z",
-    "updatedAt": "2026-02-15T13:38:31.526Z",
-    "creditos": 4,
-    "season": "2024:2"
-  },
-  {
-    "_id": "69768ac012abcedc91bdac4a",
-    "disciplina": "projeto de graduação em computação i",
-    "code": "MCTA029-17",
-    "quad": 2,
-    "year": 2024,
-    "conceito": "A",
-    "ca_acumulado": null,
-    "cp_acumulado": null,
-    "comments": [],
-    "createdAt": "2026-01-25T21:27:28.387Z",
-    "updatedAt": "2026-02-15T13:38:31.564Z",
-    "creditos": 8,
-    "season": "2024:2"
-  },
-  {
-    "_id": "69768ac012abcedc91bdac6a",
-    "disciplina": "projeto de graduação em computação",
-    "code": "MCTA029-17",
-    "quad": 3,
-    "year": 2024,
-    "conceito": "A",
-    "ca_acumulado": null,
-    "cp_acumulado": null,
-    "comments": [],
-    "createdAt": "2026-01-25T21:27:28.556Z",
-    "updatedAt": "2026-02-15T13:38:31.578Z",
-    "creditos": 8,
-    "season": "2024:3"
-  },
-  {
     "_id": "69768ac012abcedc91bdac7c",
-    "disciplina": "projeto de graduação em computação iii",
-    "code": "MCTA031-17",
+    "disciplina": "Projeto de Graduação em Computação III",
+    "code": "MCCC017-23",
     "quad": 3,
     "year": 2025,
     "conceito": "A",
