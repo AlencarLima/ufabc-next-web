@@ -63,7 +63,7 @@ export const enrollments: Enrollment[] = [
     "code": "BIS0005-15",
     "quad": 3,
     "year": 2020,
-    "conceito": "A",
+    "conceito": "F",
     "ca_acumulado": null,
     "cr_acumulado": null,
     "cp_acumulado": null,
